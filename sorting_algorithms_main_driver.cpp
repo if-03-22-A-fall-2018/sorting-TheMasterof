@@ -25,6 +25,8 @@
 #include "stopwatch.h"
 #include "sorting_algorithms.h"
 
+int 	the_array [HUGE];
+
 #define HUGE			65535	// 2^16
 #define VERY_LARGE 		16384	// 2^14
 #define LARGE			8192	// 2^13
@@ -33,9 +35,6 @@
 #define VERY_SMALL		1024	// 2^10
 #define TINY			256 	// 2 ^8
 
-/*
-* Suggestion how to initialize the arrays which must be sorted with test data.
-* 1. Create a array of size HUGE and initialize it with random data.
-* 2. Copy from this array as many elements as needed into the seven target directories
-*     (to make this efficiently, consider to use the function memcpy() of string.h).
-*/
+int 	main (int argc, char *argv[]){
+
+}
